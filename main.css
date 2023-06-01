@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+    background: #010a12;
+    transition: 0.5s;
+}
+.bodytoggle > #container{
+    background:rgb(237, 230, 230);
+    background: url("clock.png");
+    background-size: cover;
+    transition: 0.5s;
+}
+.bodytoggle{background:#ede6e6;}
+#themebtn{
+    position: fixed;
+    font-size: 30px;
+    padding: 10px;
+    color:rgb(243, 70, 1);
+}
+#container{
+    color:rgb(237, 230, 230);
+    position: fixed;
+    top: 100px;
+    left: 38%;
+    width: 23%;
+    height: 500px;
+    display: flex;
+    font-family: cursive;
+    box-shadow: 10px 10px 10px 5px black;
+    border: none;
+    border-radius: 7%; 
+    background: url('clock.jpg');
+    background-size: cover; 
+    transition: 1s;
+}
+#clock{
+    display: flex;
+    position: fixed;
+    left: 45%;
+    top: 120px;
+    font-size: 30px;
+}
+#navclock{
+    position: fixed;
+    left: 40%;
+    background:none;
+    border-radius: 50%;
+    border: solid 2px white;
+    width: 50px;
+    height: 50px;
+    top: 520px;
+    cursor: pointer ;
+    transition: 0.4s
+}
+#navclock:hover{background:rgb(237, 230, 230);}
+#navstopwatch{
+    position: fixed;
+    left:47.5%;
+    background:none;
+    border-radius: 50%;
+    border: solid 2px white;
+    width: 50px;
+    height: 50px;
+    top: 520px;
+    cursor: pointer ;
+    transition: 0.4s
+}
+#navstopwatch:hover{background:#ede6e6;}
+#navtimer{
+    position: fixed;
+    left: 55%;
+    background:none;
+    border-radius: 50%;
+    border: solid 2px white;
+    width: 50px;
+    height: 50px;
+    top: 520px;
+    cursor: pointer ;
+    transition: 0.4s
+}
+#navtimer:hover{background:rgb(237, 230, 230);}
+
+/* end of clock................. */
+
+#stopwatch
+{
+    color:rgb(237, 230, 230);
+    position: fixed;
+    left: 45.3%;
+    gap: 0.5em;
+    top: 185px;
+    display: flex;
+    font-size: 24px;
+    font-family: cursive;
+    display: none;
+}
+#watchhouse
+{
+    position: fixed;
+    left: 41.5%;
+    top: 120px;
+    border: solid 3px white;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: none;
+}
+/* control button ...................... */
+ #restart{
+    border: none;
+    font-size: 30px;
+    font-family: cursive;
+    background: none;
+    color: rgb(237, 230, 230);
+    position: fixed;
+    top: 420px;
+    left: 42%;
+    cursor: pointer;
+    transition: 0.4s;
+    display: none;
+}
+#restart:active{transform: rotate(-90deg)}
+#start{
+    border: none;
+    font-size: 30px;
+    font-family: cursive;
+    background: none;
+    color: rgb(237, 230, 230);
+    position: fixed;
+    top: 420px;
+    left:48%;
+    cursor: pointer;
+    transition: 0.4s;
+    display: none;
+}
+#start:active{transform: scale(1.7);}
+
+#stop{
+    border: none;
+    border: none;
+    font-size: 30px;
+    font-family: cursive;
+    background: none;
+    color: rgb(237, 230, 230);
+    position: fixed;
+    top: 420px;
+    left: 54%;
+    cursor: pointer;
+    transition: 0.4s;
+    display: none;
+}
+#stop:active{transform: scale(1.7);}
